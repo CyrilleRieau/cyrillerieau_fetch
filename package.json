@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/CyrilleRieau/cyrillerieau_fetch/issues"
   },
-  "homepage": "https://github.com/CyrilleRieau/cyrillerieau_fetch#readme"
+  "homepage": "https://github.com/CyrilleRieau/cyrillerieau_fetch#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
