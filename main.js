@@ -1,4 +1,4 @@
-var XMLHttpRequest = request("xmlhttprequest").XMLHttpRequest;
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 function fetch(url) {
     return new Promise(function(resolve, reject) {
