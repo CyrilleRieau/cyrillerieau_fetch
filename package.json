@@ -1,26 +1,26 @@
 {
-  "name": "cyrillerieau_fetch",
-  "version": "0.0.1",
-  "description": "Library Fetch",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CyrilleRieau/cyrillerieau_fetch.git"
-  },
-  "keywords": [
-    "NodeJs",
-    "Fetch"
-  ],
-  "author": "Cyrille Rieau <crieau@simplon.co>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CyrilleRieau/cyrillerieau_fetch/issues"
-  },
-  "homepage": "https://github.com/CyrilleRieau/cyrillerieau_fetch#readme",
-  "dependencies": {
-    "xmlhttprequest": "^1.8.0"
-  }
+    "name": "cyrillerieau_fetch",
+    "version": "0.0.1",
+    "description": "Library Fetch",
+    "main": "main.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CyrilleRieau/cyrillerieau_fetch.git"
+    },
+    "keywords": [
+        "NodeJs",
+        "Fetch"
+    ],
+    "author": "Cyrille Rieau <crieau@simplon.co>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CyrilleRieau/cyrillerieau_fetch/issues"
+    },
+    "homepage": "https://github.com/CyrilleRieau/cyrillerieau_fetch#readme",
+    "dependencies": {
+        "xmlhttprequest": "^1.8.0"
+    }
 }

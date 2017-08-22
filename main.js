@@ -2,27 +2,21 @@ var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 function fetch(url) {
     return new Promise(function(resolve, reject) {
-
         let xhr = new XMLHttpRequest();
         xhr.open("GET", url);
         xhr.onload = function() {
             if (xhr.status == 200) {
-                resolve(xhr.response);
+                resolve(xhr.responseText);
             } else {
-                reject(xhr.status);
+                reject(xhr.status)
             }
-        }
+        };
         xhr.onerror = function(error) {
             reject(error);
         }
         xhr.send();
     });
-}
-fetch("https://dog.ceo/api/breeds/list/all").then(function(response) {
-    console.log(response);
-}).catch(function(error) {
-    console.error(error);
-});
+};
 module.exports = fetch;
 
 
